@@ -1,0 +1,5 @@
+{
+  "name": "SqsToDynamodbDataTransfer",
+  "version": "1.0.0",
+  "dependencies": {}
+}
