@@ -1,1 +1,1 @@
-# Pickup-Point-Classification
+A self-serve portal where a store can register the interest to be a pick-up point. The data input by the user is validated and classiﬁed as Accepted or Rejected using Machine Learning. The applicant is informed of the application status via Email.
