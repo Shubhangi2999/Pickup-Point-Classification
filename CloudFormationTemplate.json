@@ -1,0 +1,961 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+    "AWS::CloudFormation::Designer": {
+            "06eb8a8b-708a-4189-81b4-3886723fc53f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 120,
+                    "y": 60
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "3bb19f32-d1a6-48c5-abc0-3144cfea1dd2": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 421.70947789728945,
+                    "y": -35.555799899285994
+                },
+                "z": 0
+            },
+            "25721821-7606-483e-bc62-147439647640": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 318.9415415403269,
+                    "y": -30.66208864419254
+                },
+                "z": 0
+            },
+            "7a2d6eb0-06e7-450b-a7d9-d7a2d6c65874": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 544.0522592746258,
+                    "y": 2.6151478904429504
+                },
+                "z": 0
+            },
+            "fb852104-851b-4086-a9ed-3076e0248666": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 233.7909657017008,
+                    "y": -53.173160417622434
+                },
+                "z": 0
+            },
+            "1e6f9d91-bb64-4f11-9361-64550ba93e49": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 578.30823806028,
+                    "y": -50.23693366456636
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "6975e5f0-2a20-4d6f-a321-423ae48af3f7": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 808.838691994747,
+                    "y": 25.30559057335974
+                },
+                "z": 0
+            },
+        
+
+			"2303d0cd-16fd-4cf0-9adb-27f32066a789": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 570,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "e4603ac3-1e19-4d4b-a8c8-291927924eaa": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 690,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "2303d0cd-16fd-4cf0-9adb-27f32066a789"
+                ]
+            },
+            "56e60aa3-b723-476a-ac70-bd4f833f724c": {
+                "size": {
+                    "width": 150,
+                    "height": 150
+                },
+                "position": {
+                    "x": 780,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "dcbe04da-b56d-43a8-84d9-a5755aa1a4d8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 480,
+                    "y": 30
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "0bd9bc40-27db-4fa8-a323-eea38aa809cc": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 630,
+                    "y": 120
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "33f404aa-87ee-448b-9db2-6f78ec3442f8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 210,
+                    "y": 150
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "45e02518-74ff-462f-87c1-0389dbebdac8": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 210,
+                    "y": 60
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "56309a2c-8d46-4f44-a5fe-42f22532e307"
+                ]
+            },
+            "56309a2c-8d46-4f44-a5fe-42f22532e307": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 390,
+                    "y": 60
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "d8f01a15-c669-4c9e-a638-2ca04afab97b": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 60,
+                    "y": 30
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "4ded9f06-2ab0-4b9f-863a-d570e44b2dc6"
+                ]
+            },
+            "4ded9f06-2ab0-4b9f-863a-d570e44b2dc6": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 330,
+                    "y": 60
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "fa101245-af2c-4527-9e96-dc668eba567a": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 990,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "cb63514e-7935-4a47-ba6a-e1671539407e": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 120,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "bf06e06c-63ef-4217-87a4-81b5572cd3bd": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 90,
+                    "y": 150
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "14cc4362-06aa-4743-9e0f-e8a67c339426": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1080,
+                    "y": 90
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "8909a886-c9b0-42de-bcc7-ce7c6ab1c0e5": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 150,
+                    "y": 30
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "a40f0739-4949-4183-8182-1c64148191c4": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 664.6180439596977,
+                    "y": -20.560603885768433
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "0a301819-da70-4889-85d3-4615a59ff74c": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 780,
+                    "y": -40
+                },
+                "z": 0,
+                "embeds": [],
+                "isassociatedwith": [
+                    "a40f0739-4949-4183-8182-1c64148191c4"
+                ]
+            },
+            "b71028b8-5b73-4437-a394-f8e5aad39969": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 914.6696711283804,
+                    "y": -8.109900458282162
+                },
+                "z": 0,
+                "embeds": []
+            }
+        }
+    },
+    "Resources": {
+	"storeOnboardingWebsiteBucket": {
+            "Type": "AWS::S3::Bucket",
+            "DeletionPolicy": "Retain",
+            "Properties": {
+                "AccessControl": "PublicRead",
+                "WebsiteConfiguration": {
+                    "IndexDocument": "index.html",
+                    "ErrorDocument": "404.html"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "2303d0cd-16fd-4cf0-9adb-27f32066a789"
+                }
+            }
+        },
+        "storeOnboardingWebsiteBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Ref": "storeOnboardingWebsiteBucket"
+                },
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "arn:aws:s3:::",
+                                        {
+                                            "Ref": "storeOnboardingWebsiteBucket"
+                                        },
+                                        "/*"
+                                    ]
+                                ]
+                            },
+                            "Principal": {
+                                "AWS": "*"
+                            }
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "e4603ac3-1e19-4d4b-a8c8-291927924eaa"
+                }
+            }
+        },
+        "formToSQSDataTransferAPI": {
+            "Type": "AWS::ApiGateway::RestApi",
+            "DeletionPolicy": "Retain",
+            "Properties": {
+                "Name": "formToSQSDataTransferAPI"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "56e60aa3-b723-476a-ac70-bd4f833f724c"
+                }
+            }
+        },
+        "storeOnboardingApplicationsQueue": {
+            "Type": "AWS::SQS::Queue",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "dcbe04da-b56d-43a8-84d9-a5755aa1a4d8"
+                }
+            }
+        },
+        "SQSToDynamoDBDataTransferLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "SQSToDynamodbDataTransfer.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "SQSToDynamodbDataTransfer.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "0bd9bc40-27db-4fa8-a323-eea38aa809cc"
+                }
+            }
+        },
+        "storeOnboardingData": {
+            "Type": "AWS::DynamoDB::Table",
+            "Properties": {
+                "ProvisionedThroughput": {
+                    "ReadCapacityUnits": "10",
+                    "WriteCapacityUnits": "10"
+                },
+                "AttributeDefinitions": [
+                    {
+                        "AttributeName": "store_id",
+                        "AttributeType": "N"
+                    },
+                    {
+                        "AttributeName": "phone_no",
+                        "AttributeType": "S"
+                    }
+                ],
+                "KeySchema": [
+                    {
+                        "AttributeName": "store_id",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "phone_no",
+                        "KeyType": "RANGE"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "33f404aa-87ee-448b-9db2-6f78ec3442f8"
+                }
+            }
+        },
+        "formToSQSAPIPolicy": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyName": "formToSQSAPIPolicy",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "sqs:SendMessage",
+                                "sqs:ReceiveMessage"
+                            ],
+                            "Resource": "arn:aws:sqs:us-east-2:013775002385:AmazonStack-storeOnboardingApplicationsQueue-186H64K2I9E0G"
+                        }
+                    ]
+                },
+                "Roles": [
+                    {
+                        "Ref": "formToSQSAPIRole"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "45e02518-74ff-462f-87c1-0389dbebdac8"
+                }
+            }
+        },
+        "formToSQSAPIRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "s3.amazonaws.com",
+                                    "sqs.amazonaws.com",
+                                    "apigateway.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "56309a2c-8d46-4f44-a5fe-42f22532e307"
+                }
+            }
+        },
+        "globalIAMPolicy": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyName": "globalIAMPolicy",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": "*",
+                            "Resource": "*"
+                        }
+                    ]
+                },
+                "Roles": [
+                    {
+                        "Ref": "globalIAMRole"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "d8f01a15-c669-4c9e-a638-2ca04afab97b"
+                }
+            }
+        },
+        "globalIAMRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "s3.amazonaws.com",
+                                    "sqs.amazonaws.com",
+                                    "dynamodb.amazonaws.com",
+                                    "lambda.amazonaws.com",
+                                    "states.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4ded9f06-2ab0-4b9f-863a-d570e44b2dc6"
+                }
+            }
+        },
+        "SendDataForManualApproval": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "SendDataForManualApproval.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "SendDataForManualApproval.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fa101245-af2c-4527-9e96-dc668eba567a"
+                }
+            }
+        },
+        "SendDataToModal": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "SendDataToModal.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "SendDataToModal.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "cb63514e-7935-4a47-ba6a-e1671539407e"
+                }
+            }
+        },
+        "UpdateFinalStatusInDB": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "UpdateFinalStatusInDB.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "UpdateFinalStatusInDb.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "bf06e06c-63ef-4217-87a4-81b5572cd3bd"
+                }
+            }
+        },
+        "VerifyManualApproval": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "VerifyManualApproval.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "VerifyManualApproval.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "14cc4362-06aa-4743-9e0f-e8a67c339426"
+                }
+            }
+        },
+        "EmailSender": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "EmailSender.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "EmailSender.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8909a886-c9b0-42de-bcc7-ce7c6ab1c0e5"
+                }
+            }
+        },
+        "ManualApprovalWebsiteBucket": {
+            "Type": "AWS::S3::Bucket",
+            "DeletionPolicy": "Retain",
+            "Properties": {
+                "AccessControl": "PublicRead",
+                "WebsiteConfiguration": {
+                    "IndexDocument": "index.html",
+                    "ErrorDocument": "404.html"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a40f0739-4949-4183-8182-1c64148191c4"
+                }
+            }
+        },
+        "ManualApprovalWebsiteBucketPolicy": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {
+                "Bucket": {
+                    "Ref": "ManualApprovalWebsiteBucket"
+                },
+                "PolicyDocument": {
+                    "Statement": [
+                        {
+                            "Action": [
+                                "s3:GetObject"
+                            ],
+                            "Effect": "Allow",
+                            "Resource": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "arn:aws:s3:::",
+                                        {
+                                            "Ref": "ManualApprovalWebsiteBucket"
+                                        },
+                                        "/*"
+                                    ]
+                                ]
+                            },
+                            "Principal": {
+                                "AWS": "*"
+                            }
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "0a301819-da70-4889-85d3-4615a59ff74c"
+                }
+            }
+        },
+        "ManualApprovalAPI": {
+            "Type": "AWS::ApiGatewayV2::Api",
+            "Properties": {
+                "Name": "ManualApprovalAPI",
+                "ProtocolType": "WEBSOCKET",
+                "RouteSelectionExpression": "$request.body.action"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b71028b8-5b73-4437-a394-f8e5aad39969"
+                }
+            }
+        },
+		"GoogleDataExtractionLambda": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "UpdatingGoogleData.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "GoogleDataExtraction.zip"
+                },
+                "Runtime": "python2.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "06eb8a8b-708a-4189-81b4-3886723fc53f"
+                }
+            }
+        },
+        "SageMakerAccessRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+                "AssumeRolePolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Principal": {
+                                "Service": [
+                                    "s3.amazonaws.com",
+                                    "SageMaker.amazonaws.com"
+                                ]
+                            },
+                            "Action": [
+                                "sts:AssumeRole"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3bb19f32-d1a6-48c5-abc0-3144cfea1dd2"
+                }
+            }
+        },
+        "SageMakerAccessPolicy": {
+            "Type": "AWS::IAM::Policy",
+            "Properties": {
+                "PolicyName": "SageMakerAccessPolicy",
+                "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                        {
+                            "Effect": "Allow",
+                            "Action": [
+                                "s3.GetObject",
+                                "s3.PutObject",
+                                "s3.DeleteObject",
+                                "s3.ListBucket"
+                            ],
+                            "Resource": {
+                                "Fn::Join": [
+                                    "",
+                                    [
+                                        "arn:aws:s3:::",
+                                        {
+                                            "Ref": "SageMakerBucket"
+                                        },
+                                        "/*"
+                                    ]
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "Roles": [
+                    {
+                        "Ref": "SageMakerAccessRole"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "25721821-7606-483e-bc62-147439647640"
+                }
+            }
+        },
+        "SageMakerBucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7a2d6eb0-06e7-450b-a7d9-d7a2d6c65874"
+                }
+            }
+        },
+        "SageMakerNotebook": {
+            "Type": "AWS::SageMaker::NotebookInstance",
+            "Properties": {
+                "InstanceType": "ml.t2.medium",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "SageMakerAccessRole",
+                        "Arn"
+                    ]
+                },
+                "VolumeSizeInGB": 5
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "fb852104-851b-4086-a9ed-3076e0248666"
+                }
+            }
+        },
+        "QosPrediction": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Handler": "QosPrediction.lambda_handler",
+                "Role": {
+                    "Fn::GetAtt": [
+                        "globalIAMRole",
+                        "Arn"
+                    ]
+                },
+                "Code": {
+                    "S3Bucket": "amazonlambda",
+                    "S3Key": "QosPrediction.zip"
+                },
+                "Runtime": "python3.7",
+                "Timeout": 50
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "1e6f9d91-bb64-4f11-9361-64550ba93e49"
+                }
+            }
+        },
+        "ApplicationProcessingFlow": {
+            "Type": "AWS::StepFunctions::StateMachine",
+            "Properties": {
+                
+                "DefinitionString" : {
+                    
+                    "Fn::Join" : [
+                        
+                        "\n",
+                        [   
+                        "{",
+                            "\"StartAt\": \"Googledataextraction\",",
+                            "\"States\": {",
+                                "\"Googledataextraction\": {",
+                                    "\"Type\": \"Task\",",
+                                    "\"Resource\": \"arn:aws:lambda:us-east-2:060708593102:function:AmazonStack-GoogledataextractionLambda-BG8HBS5J46C6\",",
+                                    "\"Retry\": [{",
+                                        "\"ErrorEquals\": [\"States.ALL\"],",
+                                        "\"IntervalSeconds\": 30,",
+                                        "\"MaxAttempts\": 5,",
+                                        "\"BackoffRate\": 2.0",
+                                    "}],",
+                                    "\"Next\": \"QoSCalculation\"",
+                                 "},",
+                                "\"QoSCalculation\": {",
+                                    "\"Type\": \"Task\",",
+                                    "\"Resource\": \"arn:aws:lambda:us-east-2:060708593102:function:linear_learner\",",
+                                    "\"Retry\": [{",
+                                        "\"ErrorEquals\": [\"States.ALL\"],",
+                                        "\"IntervalSeconds\": 30,",
+                                        "\"MaxAttempts\": 5,",
+                                        "\"BackoffRate\": 2.0",
+                                    "}],",
+                                    "\"Next\": \"ManualValidation\"",
+                                "},",
+                                "\"ManualValidation\": {",
+                                    "\"Type\": \"Task\",",
+                                    "\"Resource\": \"arn:aws:lambda:us-east-2:060708593102:function:Verify-manual-validation\",",
+                                    "\"Retry\": [{",
+                                        "\"ErrorEquals\": [\"States.ALL\"],",
+                                        "\"IntervalSeconds\": 60,",
+                                        "\"MaxAttempts\": 10,",
+                                        "\"BackoffRate\": 1.0",
+                                    "}],",
+                                    "\"Next\": \"EmailService\"",
+                                "},",
+                                "\"EmailService\": {",
+                                    "\"Type\": \"Task\",",
+                                    "\"Resource\": \"arn:aws:lambda:us-east-2:060708593102:function:email-forward\",",
+                                    "\"Retry\": [{",
+                                        "\"ErrorEquals\": [\"States.ALL\"],",
+                                        "\"IntervalSeconds\": 30,",
+                                        "\"MaxAttempts\": 5,",
+                                        "\"BackoffRate\": 2.0",
+                                    "}],",
+                                    "\"End\": true",
+                                "}",
+                            "}",
+                        "}"
+                            
+                        ]
+                        
+                    ]
+                    
+                },
+                "RoleArn": "arn:aws:iam::060708593102:role/AmazonStack-globalIAMRole-II5OVLHTMB4"
+                
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "6975e5f0-2a20-4d6f-a321-423ae48af3f7"
+                }
+            }
+        }
+    }
+}
