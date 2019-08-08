@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<title> Locker Installation Applications </title>
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel = "stylesheet" href = "css/style.css">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type = "text/javascript" src = "functions.js">	</script>
+</head>
+
+<body>
+	<div id = "content">
+		<img src = "logo.jpg" class = "ribbon" width = 120 height = 75/>
+	</div>
+	<br><br>
+	<center><h1 style = "color:gray"> APPLICATIONS FOR LOCKER INSTALLATION </h1></center><br><br>
+	<center><div id = "dvTable"></div></center>
+	<button style = "display: none;" id = "modal-button" type = "button" class = "btn btn-info btn-lg" data-toggle = "modal" data-target = "#myModal"></button>
+	<div class = "container">
+		<div class = "modal fade" id = "myModal" role = "dialog">
+			<div class = "modal-dialog modal-lg">
+				<div class = "modal-content">
+					<div class = "modal-body" id = "modalbody" style = "padding:40px 50px;">
+					</div>
+					<div class = "modal-footer">
+						<button type = "submit" class = "btn pull-right" data-dismiss = "modal"><span class = "glyphicon glyphicon-remove"></span> Cancel </button>
+						<button type = "submit" class = "btn pull-left" data-dismiss = "modal" id = "status_ar" value = "1" onclick = "sendFinalStatusToAPI(event, value)"><span class = "glyphicon glyphicon-ok-sign"></span> Accept</button>
+						<button type = "submit" class = "btn pull-left" data-dismiss = "modal" id = "status_ar" value = "0" onclick = "sendFinalStatusToAPI(event, value)"><span class = "glyphicon glyphicon-remove-sign"></span> Reject</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
