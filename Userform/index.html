@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Locker Application Form</title>
+  <style>
+
+  </style>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+  <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+  <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+  <link rel = "stylesheet" type = "text/css" href = "css/main.css">
+</head>
+<body>
+
+  <div style = "background-color: #f2f2f2">
+    <div class = "container">
+      <img src = "logo.jpg">
+      <div class = "wrap-form">
+        <form id = "locker_app_form" onsubmit = "return false;">
+			<div class = "general-remarks1">
+				<label> TELL US ABOUT YOURSELF! </label>
+			</div>
+          <div>
+		    <label>NAME</label>
+            <input type = "text" id = "name_input" name = "name">
+            <label style = "padding-left: 15px;">PHONE NO.</label>
+            <input type = "text" id = "phone_input" name = "phone">
+          </div>
+
+          <div>
+            <label>EMAIL</label>
+            <input style = "width: 240px" type = "text" id = "email_input" name = "email">
+            <label style = "padding-left: 20px" >CITY</label>
+            <input type = "text" id = "city_input" name = "city">
+          </div>
+		  
+			<div class = "general-remarks2">
+				<label> TELL US ABOUT YOUR STORE! </label>
+			</div>
+			
+          <div>
+            <label>LOCATION NAME</label>
+            <input style = "width: 240px" type = "text" id = "location_name" name = "location_name">
+            <label style = "padding-left: 10px;">TYPE</label>
+            <select style = "width: 130px" id = "location_type" name = "type">
+			  <option>Restaurant</option>
+              <option>Shopping Mall</option>
+              <option>Store</option>
+              <option>Supermarket</option>
+            </select>
+          </div>
+
+          <div>
+            <label>ADDRESS</label>
+            <input style =  "width: 470px" type = "text" id = "address_input" name = "address">
+          </div>
+		  
+		  <div>
+            <label>SPACE AVAILABLE: </label>
+			<label style = "padding-left: 25px">L</label>
+            <input style = "width: 50px" type = "text" name = "area_dimensions" id = "area_dimensions1">
+			<label style = "padding-left: 25px">B</label>
+            <input style = "width: 50px" type = "text" name = "area_dimensions" id = "area_dimensions2">
+			<label style = "padding-left: 25px">H</label>
+            <input style = "width: 50px" type = "text" name = "area_dimensions" id = "area_dimensions3">
+          </div>
+
+          <div>
+            <label>DISABLED FRIENDLY?</label>
+            <input type = "radio" name = "disabled" value = "Yes" id = "disabled_yes">Yes
+            <input type = "radio" name = "disabled" value = "No" id = "disabled_no">No
+            <label style = "padding-left: 35px">OWNED/RENTED?</label>
+            <input type = "radio" name = "owned_rented" value = "Owned" id = "owned">Owned
+            <input type = "radio" name = "owned_rented" value = "Rented" id = "rented">Rented
+          </div>
+
+          <div>
+            <label>DAILY FOOTFALL</label>
+            <input style =  "width: 130px" type = "text" name = "visitors" id = "visitors_input">
+            <label style =  "padding-left: 10px;">STAFF COUNT</label>
+            <input style =  "width: 100px" type = "text" name = "staffcount" id = "staff_count">
+          </div>
+
+          <div>
+            <label>AGE OF LOCATION(yrs.)</label>
+            <input style =  "width: 100px" type = "text" name = "age" id = "age_input">
+            <label>WORKING DAYS IN A WEEK</label>
+            <input style =  "width: 100px" type = "text" name = "age" id = "working_days">
+          </div>
+
+          <div>
+            <label>TIMINGS</label>
+            OPEN <input style =  "width: 200px" type = "time" name = "timings_open" id = "timings_open"></span>
+            CLOSE <input style =  "width: 200px" type = "time" name = "timings_close" id = "timings_close"></span>
+          </div>
+		  
+			<div class = "general-remarks3">
+				<label> TELL US ABOUT YOUR NEARBY LOCATIONS! </label>
+			</div>
+			
+		  <div>
+            <span> <label>ADDRESS OF NEARBY RESIDENTIAL AREAS</label>
+              <input type = "button" id = "btAdd" value = "  +  " class = "bt"/>
+              <input type = "button" id = "btRemove" value = "  -  " class = "bt">
+            </span>
+            <br>
+            <input style =  "width: 470px" type = "text" id = "tb0">
+          </div>
+          <div id = "resd"></div>
+			
+		  <div style = "padding-left: 250px; padding-top: 30px">
+           <button type = "button" class = "btn btn-warning" onClick = "checkerror()">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <button style = "display: none" id = "modal-button" type = "button" class = "btn btn-info btn-lg" data-toggle = "modal" data-target = "#myModal"></button>
+  <div class = "container1">
+    <div class = "modal fade" id = "myModal" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-body1" style = "padding:40px 50px;" id = "modalbody1"></div>
+          <div class = "modal-footer">
+            <button type = "submit" class = "btn btn-danger btn-default pull-right" data-dismiss = "modal"><span class = "glyphicon glyphicon-remove"></span> CLOSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button style = "display: none" id = "modal-button2" type = "button" class = "btn btn-info btn-lg" data-toggle = "modal" data-target = "#myModal2"></button>
+  <div class = "container2">
+    <div class = "modal fade" id = "myModal2" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-body2" style = "padding:40px 50px;" id = "modalbody2"></div>
+          <div class = "modal-footer">
+            <button type = "submit" onclick = "submitToAPI(event)" class = "btn btn-danger btn-default pull-left" data-dismiss = "modal"><span class = "glyphicon glyphicon-ok-sign"></span> OK</button>
+            <button type = "submit" class = "btn btn-danger btn-default pull-right" data-dismiss = "modal"><span class = "glyphicon glyphicon-remove"></span> CLOSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src = "js/main.js"></script>
+</body>
+</html>
